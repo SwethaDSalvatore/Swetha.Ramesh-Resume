@@ -1,4 +1,4 @@
-# Swetha Ramesh Portfolio
+# Swetha Ramesh - Resume
 
  MBA in Marketing | Commerce Graduate | Passionate about driving business growth through strategic marketing. 📈 Experienced in finance, marketing, and business outsourcing. 🌟 Committed to continuous learning and blending non-technical expertise with emerging tech skills. Let's connect and explore opportunities together! 
  
@@ -20,7 +20,7 @@
 Building my personal resume using html and css for intenship project.
 
 ## Demo
-
+https://swethadsalvatore.github.io/Swetha.Ramesh-Resume/
 
 
 ## Internship
@@ -29,7 +29,7 @@ This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.co
 
 ## Technologies Used
 
-HTML, CSS, vs code
+HTML, CSS, VS code
 
 ## Features
 
@@ -56,3 +56,4 @@ MIT license under which your project is distributed.
 I have refered code from live session from cyberdude network. 
 
 ---
+https://github.com/SwethaDSalvatore/Swetha.Ramesh-Resume.git
