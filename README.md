@@ -1,5 +1,39 @@
 # Swetha Ramesh - Resume
 
+Building my personal resume using html and css with rooted color variants with mobile responsive (_<992px max-width screen sizes_) for intenship project. You can find source code from the below path. You can view it here with the detailed instruction below for your convenience. 
+
+✨**Live Path Link is Here**: https://github.com/SwethaDSalvatore/Swetha.Ramesh-Resume.git
+
+
+| 🚀 Index | 🎆 Description |
+|--|--|
+| **License** |MIT  |
+| **Stacks** |HTML & CSS  |
+| **Author** |Swetha |
+| **Live Link** | [Click Here](https://swethadsalvatore.github.io/Swetha.Ramesh-Resume/) |
+| **Color Pallets** | [Click Here](https://colorhunt.co/) |
+| **Mobile Responsive** | Yes (<992px) |
+
+
+
+---
+
+### Description
+All color variants are below. Color pallets are generated with the [Color Hunt](https://www.colorhunt.co).
+You can access the style sheet from the style.css file 
+
+---
+### Demo link
+https://swethadsalvatore.github.io/Swetha.Ramesh-Resume/
+
+---
+
+## Acknowledgments
+
+I have refered code from live session from cyberdude network.
+
+---
+
  MBA in Marketing | Commerce Graduate | Passionate about driving business growth through strategic marketing. 📈 Experienced in finance, marketing, and business outsourcing. 🌟 Committed to continuous learning and blending non-technical expertise with emerging tech skills. Let's connect and explore opportunities together! 
  
 ## Table of Contents
@@ -20,7 +54,10 @@
 Building my personal resume using html and css for intenship project.
 
 ## Demo
+
 https://swethadsalvatore.github.io/Swetha.Ramesh-Resume/
+
+
 
 
 ## Internship
@@ -51,9 +88,7 @@ You can access my code source from Github.
 
 MIT license under which your project is distributed. 
 
-## Acknowledgments
-
-I have refered code from live session from cyberdude network. 
+ 
 
 ---
 https://github.com/SwethaDSalvatore/Swetha.Ramesh-Resume.git

@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
+:root {
+    --bg-color:#7b4545;
+    --bg-lft-color:#b06c6c;
+    --bg-rit-color:#F8EDE3;
+    --bg-shdw-color:#070402;
+    --fnt-lft-color:#110B06;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +17,7 @@
 }
 
 body {
-    background: #867070;
+    background:var(--bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,20 +29,22 @@ body {
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    background: #F8EDE3;
+    /* background: #81818178; */
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px #110B06;
+    box-shadow: 0 35px 55px var(--bg-shdw-color);
 }
 
 /* left section style starts here */
 .container .left_Side {
     position: relative;
-    background: #D5B4B4;
+    background: var(--bg-lft-color);
     padding: 40px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 /* profile styling */
@@ -49,7 +60,7 @@ body {
     height: 2px;
     border-width: 0;
     padding: 0px;
-    background-color: #867070;
+    background-color: var(--bg-color);
 }
 
 .profileText .imgBx {
@@ -71,7 +82,7 @@ body {
 }
 
 .profileText h2 {
-    color: #110B06;
+    color: var(--fnt-lft-color);
     font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;
@@ -80,14 +91,14 @@ body {
     line-height: 1.4em;
 }
 
-.profileText h3 {
+/* .profileText h3 {
     color: #473636;
     font-size: 15px;
     font-style: 100;
-}
+} */
 
 .title {
-    color: #110B06;
+    color: var(--fnt-lft-color);
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -118,7 +129,7 @@ body {
 
 .contactInfo .text a {
     text-decoration: none;
-    color: #110B06;
+    color: var(--fnt-lft-color);
 }
 
 /* eduction div styling */
@@ -130,22 +141,22 @@ body {
 }
 
 .contactInfoeducation h5 {
-    color: #110B06;
+    color: var(--fnt-lft-color);
 }
 
 .contactInfoeducation h4 {
-    color: #110B06;
+    color: var(--fnt-lft-color);
     font-weight: 600;
 }
 
 .contactInfoeducation h4:nth-child(2) {
-    color: #110B06;
+    color: var(--fnt-lft-color);
     font-weight: 400;
 }
 
 /* awards styling */
 .contactInfoAWARDS {
-    color: #110B06;
+    color: var(--fnt-lft-color);
     font-weight: 400;
 }
 
@@ -172,8 +183,10 @@ body {
 /* right side section */
 .container .right_Side {
     position: relative;
-    background: #F8EDE3;
+    background: var(--bg-rit-color);
     padding: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .about {
@@ -185,7 +198,7 @@ body {
 }
 
 .title2 {
-    color: #110B06;
+    color: var(--fnt-lft-color);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -193,7 +206,7 @@ body {
 
 /* about styling section */
 .about p {
-    color: #110B06;
+    color: var(--fnt-lft-color);
 }
 
 .about .box {
@@ -208,13 +221,13 @@ body {
 
 .about .box .year_company h5 {
     text-transform: uppercase;
-    color: #867070;
+    color: var(--bg-color);
     font-weight: 600;
 }
 
 .about .box .text h4 {
     text-transform: uppercase;
-    color: #110B06;
+    color: var(--fnt-lft-color);
     font-size: 16px;
 }
 
@@ -230,7 +243,7 @@ body {
 
 .skills .box h4 {
     text-transform: uppercase;
-    color: #110B06;
+    color: var(--fnt-lft-color);
     font-weight: 500;
 }
 
@@ -246,18 +259,25 @@ body {
     top: 0;
     left: 00;
     height: 100%;
-    background: #867070;
+    background: var(--bg-color);
 }
 
 /* for mobile view */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
     .container {
+        border-radius: 0;
         grid-template-columns: 1fr;
         /* Display in a single column on smaller screens */
     }
 
     .container .left_Side {
         margin: 0;
+        border-top-left-radius:0 ;
+        border-bottom-left-radius: 0;
         /* Remove margin for left side on smaller screens */
+    }
+    .container .right_Side {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
     }
 }
